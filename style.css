@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+
+.first_container {
+    background-color: #1F2937;
+
+}
+
+
+
+.second_container {
+    background-color: white
+}
+
+
+.third_container {
+    background-color: #E5E7EB;
+    
+}
+
+
+.forth_container {
+    background-color: white;
+    min-height: 18vh;
+}
+
+.first_container,
+.second_container,
+.third_container {
+    min-height: 25vh;
+}
+
+.footer {
+    min-height: 7vh;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+
+.footer_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
