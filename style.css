@@ -1,14 +1,63 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    
+    margin: 0;  
 }
 
 
 .first_container {
     background-color: #1F2937;
+}
 
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.navbar p{
+
+    color: white;
+    display: inline-block;
+    margin: 0;
+    background-color: tomato;
+}
+
+
+
+
+
+.navbar h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: pink;
+    margin-left: 0;
+}
+
+
+.awesome_container {
+    margin-bottom: 20px;
+    margin-left: 330px;
+    color: white;
+    max-width: 300px;
+    justify-content: center;
+}
+
+.awesome_container h1 {
+    font-size: 35px;
+}
+
+.awesome_container button {
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 
@@ -47,4 +96,16 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.par_first_container {
+    display: flex;   
+}
+
+.par_first_container .image_placeholder {
+    color: white;
+    align-self: center;
+    margin-left:600px;
+    background-color: grey;
+    padding: 80px;
 }
