@@ -7,28 +7,23 @@ body {
 
 .first_container {
     background-color: #1F2937;
+
 }
 
+.links {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    gap: 15px;
 
+    margin-left: 1000px;
+}
 
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
 }
-
-
-
-
-.navbar p{
-
-    color: white;
-    display: inline-block;
-    margin: 0;
-    background-color: tomato;
-}
-
-
 
 
 
@@ -36,8 +31,7 @@ body {
     font-size: 30px;
     color: white;
     font-weight: bold;
-    background-color: pink;
-    margin-left: 0;
+    margin-left: 40px;
 }
 
 
@@ -120,7 +114,7 @@ body {
 display: flex;
 align-items: flex-start;
 justify-content: center;
-gap: 15px;
+gap: 45px;
 
 }
 
@@ -137,4 +131,57 @@ gap: 15px;
 
 .four_squares p {
     text-align: center;
+}
+
+
+.third_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.third_container h1 {
+    width: 600px;
+    font-size: 26px;
+    font-style: italic;
+
+}
+
+.third_container #quote {
+    font-weight: bold;
+    text-align: right;
+    width: 420px;
+}
+
+.container_in_container {
+    display: flex;
+    width: 800px;
+    padding: 1px;
+    margin: 0 auto;
+    background-color: #3882F6;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.forth_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 25vh; 
+}
+
+.container_in_container button {
+
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.container_in_container .action {
+    text-align: center; /* Center the text */
+
 }
